@@ -3,7 +3,7 @@ import React from 'react';
 import Image from 'next/image';
 const Navbar = () => {
   return (
-    <div className="bg-white text-white px-[120px] py-[30px] flex justify-between items-center text-xs font-medium">
+    <div className="bg-white text-white px-1 md:px-[120px] py-[30px] flex justify-between items-center text-xs font-medium">
       {/* left Section */}
       <div className="flex items-center space-x-[30px]">
         <div className="flex items-center">
